@@ -1,0 +1,5 @@
+application,app type,algorithm,frequency,key size,data sensitivity,architecture flexibility,3rd party usage,is third party quantum safe,data transition algorithm,data shelf life,migration,vendor pkc complaint,vendor supply time
+Confidential Archive,Archive,RSA,0,2048,Critical,Low,No,Yes,,30,2,No,0
+Public Web Service,Web,ECDSA,365,256,Low,High,No,Yes,,1,0.5,Yes,0
+Healthcare Records,Database,RSA,12,3072,High,Low,Yes,No,none,25,3,No,6
+IoT Sensor Hub,Embedded,CustomSymmetric,52,128,Moderate,Rigid,Yes,Yes,PQC-hybrid,5,5,No,12
